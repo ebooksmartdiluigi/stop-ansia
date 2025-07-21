@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,48 +14,65 @@
       background: #ffffff;
       color: #222;
     }
-    header, section, footer {
+
+    header,
+    section,
+    footer {
       padding: 2rem;
       max-width: 1200px;
       margin: auto;
     }
+
     header {
       background: #0a2a66;
       color: #fff;
       text-align: center;
     }
+
     header h1 {
       font-size: 2.2rem;
     }
+
     header h2 {
       font-size: 1.4rem;
       font-weight: normal;
     }
+
     .btn {
-      display: inline-block;
-      background: #0077cc;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 8px;
-      margin-top: 1rem;
-    }
+  display: inline-block;
+  background-color: #0077cc;
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+
     .highlight {
       background: #fff8dc;
       padding: 1rem;
       border-left: 5px solid #f0ad4e;
       margin: 1rem 0;
     }
+
     ul {
       padding-left: 1.2rem;
     }
+
     .testimonial {
       font-style: italic;
       border-left: 4px solid #ccc;
       padding-left: 1rem;
       margin: 1rem 0;
     }
+
     .faq h4 {
       margin-bottom: 0.3rem;
       cursor: pointer;
@@ -62,6 +80,7 @@
       padding: 0.5rem;
       border-radius: 5px;
     }
+
     .faq .answer {
       display: none;
       padding: 0.5rem 1rem;
@@ -69,13 +88,32 @@
       margin-bottom: 1rem;
       border-left: 3px solid #0077cc;
     }
+
     footer {
       text-align: center;
       font-size: 0.9rem;
       color: #777;
     }
+
+    .intro-section {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .intro-section img {
+      max-width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .progr {
+      background-color: #fff8dc;
+    }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Stop Ansia – Libera la tua mente in 7 giorni</h1>
@@ -83,16 +121,20 @@
     <a href="#acquista" class="btn">Scarica Ora il Programma</a>
   </header>
 
-  <section>
-    <h2>Ti senti sempre in tensione?</h2>
-    <p>Cuore che batte forte, pensieri che non si fermano, paura costante senza motivo? Non sei solo. Ma puoi uscirne. In appena 7 giorni.</p>
-    <div class="highlight">
-      ✅ Niente pillole – ✅ Nessuna terapia lunga – ✅ Metodo pratico e immediato
+  <section class="intro-section">
+    <div>
+      <h2>Ti senti sempre in tensione?</h2>
+      <p>Cuore che batte forte, pensieri che non si fermano, paura costante senza motivo? Non sei solo. Ma puoi uscirne.
+        In appena 7 giorni.</p>
+      <div class="highlight">
+        ✅ Niente pillole – ✅ Nessuna terapia lunga – ✅ Metodo pratico e immediato
+      </div>
+      <p>Inizia oggi stesso un percorso guidato per calmare la mente, sciogliere lo stress e ritrovare serenità.</p>
     </div>
-    <p>Inizia oggi stesso un percorso guidato per calmare la mente, sciogliere lo stress e ritrovare serenità.</p>
+    <img src="https://i.postimg.cc/yYB6hGXv/Stop-Ansia-Ebook.png" alt="Persona che medita in un ambiente tranquillo">
   </section>
 
-  <section>
+  <section class="progr">
     <h2>Cosa troverai nel programma</h2>
     <ul>
       <li>Una tecnica anti-ansia facile da applicare</li>
@@ -116,8 +158,10 @@
 
   <section>
     <h2>Cosa dicono le persone</h2>
-    <p class="testimonial">“Dopo 3 giorni non avevo più quel nodo allo stomaco. Dormo finalmente senza risvegli.”<br>— Chiara D.</p>
-    <p class="testimonial">“Non pensavo fosse possibile fare così tanto con così poco. Mi sento più centrato e lucido.”<br>— Marco F.</p>
+    <p class="testimonial">“Dopo 3 giorni non avevo più quel nodo allo stomaco. Dormo finalmente senza risvegli.”<br>—
+      Chiara D.</p>
+    <p class="testimonial">“Non pensavo fosse possibile fare così tanto con così poco. Mi sento più centrato e
+      lucido.”<br>— Marco F.</p>
   </section>
 
   <section>
@@ -131,33 +175,94 @@
 
   <section>
     <h2>Garanzia zero rischio</h2>
-    <p>Hai 7 giorni per testarlo. Se non noti nessun cambiamento, ti rimborsiamo <strong>senza fare domande</strong>.</p>
+    <p>Hai 7 giorni per testarlo. Se non noti nessun cambiamento, ti rimborsiamo <strong>senza fare domande</strong>.
+    </p>
   </section>
 
-  <section id="acquista">
-    <h2>Scarica ora il programma e inizia subito</h2>
-    <p><strong>Prezzo lancio: SOLO 9,90€</strong></p>
-    <p>Accesso immediato al materiale PDF + audio. Ricevi tutto via email in 2 minuti.</p>
-    <a href="#" class="btn">SCARICA ORA</a>
-  </section>
+ <section id="acquista">
+  <h2>📘 Scarica Ora il Programma e Inizia Subito</h2>
+  <p>
+    <strong>
+      Prezzo Lancio: <span style="color:#d62828;">SOLO 9,90€</span></strong> / 
+      <del>19,90€</del> – SCONTO 50%
+    
+  </p>
+  <p>
+    Accesso immediato al file PDF + audio bonus.<br>
+    Ricevi tutto via email in meno di 2 minuti, senza attese.
+  </p>
+  <a href="https://LINK_TUO_PAYPAL_O_GUMROAD" class="btn">📥 SCARICA ORA</a>
+</section>
 
-  <section class="faq">
-    <h2>Domande Frequenti</h2>
-    <h4 class="question">➤ È adatto a tutti?</h4>
-    <div class="answer">Sì, è pensato per chiunque soffra di ansia lieve o moderata.</div>
 
-    <h4 class="question">➤ Serve esperienza o pratica precedente?</h4>
-    <div class="answer">No, è tutto spiegato passo per passo.</div>
+ <section class="faq">
+  <h2>Domande Frequenti</h2>
 
-    <h4 class="question">➤ Quanto tempo serve al giorno?</h4>
-    <div class="answer">10-15 minuti al giorno sono sufficienti.</div>
+  <h4 class="question">➤ 📖 Di cosa parla questo eBook?</h4>
+  <div class="answer">
+    “Stop Ansia” è una guida pratica e diretta per aiutarti a ridurre e gestire l’ansia nella vita quotidiana. Scoprirai tecniche immediate, routine giornaliere, cause nascoste dell’ansia e uno stile di vita che ti aiuterà a vivere più sereno, leggero e presente.
+  </div>
 
-    <h4 class="question">➤ Posso usarlo anche se prendo farmaci?</h4>
-    <div class="answer">Sì, può affiancarsi a qualsiasi trattamento medico.</div>
+  <h4 class="question">➤ 🧐 Questo eBook è adatto a me?</h4>
+  <div class="answer">
+    <p>Sì, se:</p>
+    <ul>
+      <li>Vivi spesso con l’ansia o sotto stress</li>
+      <li>Vuoi soluzioni pratiche e non solo teoria</li>
+      <li>Cerchi un approccio naturale, senza farmaci</li>
+      <li>Hai bisogno di un metodo semplice da seguire ogni giorno</li>
+    </ul>
+    <p>Non serve nessuna competenza o preparazione: è adatto a tutti.</p>
+  </div>
 
-    <h4 class="question">➤ Riceverò aggiornamenti?</h4>
-    <div class="answer">Sì, riceverai un follow-up gratuito dopo 7 giorni.</div>
-  </section>
+  <h4 class="question">➤ 📌 Che tipo di strategie troverò nel libro?</h4>
+  <div class="answer">
+    <ul>
+      <li>Tecniche anti-ansia immediate (respiro, grounding, rilassamento)</li>
+      <li>Routine giornaliere mattina/sera</li>
+      <li>Strategie di gestione delle crisi</li>
+      <li>Approcci su alimentazione, mindset e stile di vita</li>
+      <li>Affermazioni, self-talk, strumenti concreti da usare ogni giorno</li>
+    </ul>
+  </div>
+
+  <h4 class="question">➤ 📚 È un libro teorico o pratico?</h4>
+  <div class="answer">
+    È un libro pratico al 100%, pensato per l’applicazione immediata. Ogni capitolo include consigli concreti, tecniche guidate e abitudini quotidiane facili da integrare nella tua routine.
+  </div>
+
+  <h4 class="question">➤ 📲 In che formato è disponibile l’eBook?</h4>
+  <div class="answer">
+    <p>L’eBook è in formato PDF, compatibile con:</p>
+    <ul>
+      <li>PC e Mac</li>
+      <li>Tablet e iPad</li>
+      <li>Smartphone Android e iPhone</li>
+    </ul>
+    <p>Puedes leggerlo ovunque, quando vuoi.</p>
+  </div>
+
+  <h4 class="question">➤ 💰 Qual è il prezzo dell’eBook?</h4>
+  <div class="answer">
+    Il prezzo completo lo trovi nella pagina di acquisto., ma spesso è disponibile in offerta lancio o con bonus inclusi. Controlla nella pagina di acquisto l’eventuale promozione attiva.
+  </div>
+
+  <h4 class="question">➤ 🚀 Dopo l’acquisto, quando riceverò l’eBook?</h4>
+  <div class="answer">
+    <strong>Subito!</strong><br>
+    Dopo il pagamento riceverai un <strong>link diretto per scaricarlo</strong>, anche via email.<br>
+    Nessuna attesa, nessuna spedizione fisica.
+  </div>
+
+  <h4 class="question">➤ 💬 Come posso contattarti per altre domande?</h4>
+<div class="answer">
+  Se hai dubbi o domande, puoi contattarmi via email a  
+  <a href="mailto:ebooksmartdiluigi@gmail.com">support@ebooksmartdiluigi.it</a>.  
+  Sarò felice di risponderti nel più breve tempo possibile!
+</div>
+
+</section>
+
 
   <footer>
     <p>&copy; 2025 Stop Ansia – Un progetto di EbookSmart di Luigi. Tutti i diritti riservati.</p>
@@ -174,4 +279,5 @@
     });
   </script>
 </body>
+
 </html>
