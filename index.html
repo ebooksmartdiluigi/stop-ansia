@@ -10,121 +10,136 @@
   <meta property="og:description"
     content="Tecnica pratica, routine, audio guida e strumenti per eliminare l'ansia senza farmaci. PDF immediato." />
   <meta property="og:image" content="https://i.postimg.cc/yYB6hGXv/Stop-Ansia-Ebook.png" />
- <link rel="icon" type="image/png" href="favicon.png">
-  <title>Stop Ansia – Libera la tua mente in 7 giorni</title>
+  <link rel="icon" type="image/png" href="favicon.png">
   <style>
     body {
-      font-family: 'Arial', sans-serif;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       line-height: 1.6;
       margin: 0;
       padding: 0;
-      background: #ffffff;
-      color: #222;
+      background: #f8f9fa;
+      color: #495057;
     }
 
     a {
-      color: #0077cc;
-      text-decoration: underline;
+      color: #0d6efd;
+      text-decoration: none;
+      transition: color 0.2s ease;
     }
 
-
-    header,
-    section,
-    footer {
-      padding: 2rem;
-      max-width: 1200px;
-      margin: auto;
+    a:hover {
+      color: #0a58ca;
     }
 
     header {
-      background: #0a2a66;
+      background: linear-gradient(135deg, #0d6efd, #0a58ca);
       color: #fff;
       text-align: center;
+      padding: 4rem 2rem;
     }
 
     header h1 {
-      font-size: 2.2rem;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
     }
 
     header h2 {
-      font-size: 1.4rem;
-      font-weight: normal;
+      font-size: 1.2rem;
+      font-weight: 300;
+      opacity: 0.9;
     }
 
     .btn {
       display: inline-block;
-      background-color: #0077cc;
+      background: linear-gradient(135deg, #20c997, #198754);
       color: white;
-      padding: 14px 28px;
-      font-size: 18px;
-      font-weight: bold;
-      border-radius: 10px;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 8px;
       text-decoration: none;
-      transition: background 0.3s ease;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
     .btn:hover {
-      background-color: #005fa3;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     }
 
+    section {
+      background: #fff;
+      margin: 2rem auto;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      max-width: 1200px;
+    }
 
     .highlight {
-      background: #fff8dc;
+      background: #e9f5ff;
       padding: 1rem;
-      border-left: 5px solid #f0ad4e;
-      margin: 1rem 0;
-    }
-
-    ul {
-      padding-left: 1.2rem;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+      border-left: 4px solid #0d6efd;
     }
 
     .testimonial {
-      font-style: italic;
-      border-left: 4px solid #ccc;
-      padding-left: 1rem;
-      margin: 1rem 0;
+      background: #f8f9fa;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+      border-left: 4px solid #20c997;
     }
 
     .faq h4 {
-      margin-bottom: 0.3rem;
+      background: #f8f9fa;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 0.5rem 0;
       cursor: pointer;
-      background: #e8f0ff;
-      padding: 0.5rem;
-      border-radius: 5px;
+      transition: background 0.2s ease;
+    }
+
+    .faq h4:hover {
+      background: #e9ecef;
     }
 
     .faq .answer {
-      display: none;
-      padding: 0.5rem 1rem;
-      background: #f9f9f9;
-      margin-bottom: 1rem;
-      border-left: 3px solid #0077cc;
+      padding: 1rem;
+      background: #f8f9fa;
+      border-radius: 8px;
+      margin: 0.5rem 0;
     }
 
     footer {
       text-align: center;
+      padding: 2rem;
+      color: #6c757d;
       font-size: 0.9rem;
-      color: #777;
     }
 
     .intro-section {
-      display: flex;
+      display: grid;
+      grid-template-columns: 1fr;
       gap: 2rem;
-      align-items: center;
     }
 
     .intro-section img {
-      max-width: 300px;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+      border-radius: 12px;
+      margin: 0 auto;
     }
 
-
-    .progr {
-      background-color: #fff8dc;
+    @media (min-width: 768px) {
+      .intro-section {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+      }
     }
   </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -147,26 +162,102 @@
     <img src="https://i.postimg.cc/yYB6hGXv/Stop-Ansia-Ebook.png" alt="Persona che medita in un ambiente tranquillo">
   </section>
 
-  <section class="progr">
-    <h2>Cosa troverai nel programma</h2>
-    <ul>
-      <li>Una tecnica anti-ansia facile da applicare</li>
-      <li>Un esercizio mentale quotidiano</li>
-      <li>Una micro-abitudine per la calma</li>
-      <li>Supporto motivazionale giorno per giorno</li>
-    </ul>
+  <section class="intro-section">
+    <img src="https://i.postimg.cc/P5vxPM3z/Progetto-senza-titolo.png" alt="Persona che medita in un ambiente tranquillo">
+
+    <div>
+      <h2>Cosa troverai nel programma</h2>
+      <ul>
+        <li>Una tecnica anti-ansia facile da applicare</li>
+        <li>Un esercizio mentale quotidiano</li>
+        <li>Una micro-abitudine per la calma</li>
+        <li>Audio serale rilassante (bonus incluso)</li>
+        <li>Supporto motivazionale giorno per giorno</li>
+      </ul>
+    </div>
+
   </section>
 
-  <section>
-    <h2>I Benefici dopo solo 7 giorni</h2>
-    <ul>
-      <li>Meno pensieri ossessivi</li>
-      <li>Più calma e concentrazione</li>
-      <li>Sonno profondo e rigenerante</li>
-      <li>Sicurezza interiore</li>
-      <li>Energia mentale e voglia di fare</li>
-    </ul>
+  <section class="intro-section">
+    <div>
+      <h2>I Benefici dopo solo 7 giorni</h2>
+      <ul>
+        <li>Meno pensieri ossessivi</li>
+        <li>Più calma e concentrazione</li>
+        <li>Sonno profondo e rigenerante</li>
+        <li>Sicurezza interiore</li>
+        <li>Energia mentale e voglia di fare</li>
+      </ul>
+    </div>
+    <img src="https://i.postimg.cc/yYB6hGXv/Stop-Ansia-Ebook.png" alt="Persona che medita in un ambiente tranquillo">
   </section>
+
+ <section>
+  <div style="max-width: 1200px; margin: auto;">
+    <h2 style="font-size: 2rem; margin-bottom: 1rem;">📘 Percorso del Programma</h2>
+
+    <h3 style="color:#007BFF;margin-bottom:1rem;">🧠 Capitolo 1 – Cos’è Davvero l’Ansia</h3>
+    <ul style="list-style: none; padding-left: 0; line-height: 1.6;">
+      <li><strong>🔍 La verità sull’ansia</strong> – L’ansia non è tua nemica, ma un messaggio da ascoltare.</li>
+      <li><strong>⚖️ Ansia normale vs Ansia patologica</strong> – L’ansia è normale quando dura poco e sparisce da sola.</li>
+      <li><strong>🧬 Il meccanismo biologico</strong> – Il cervello reagisce a un pericolo (anche solo immaginario) e attiva il corpo.</li>
+      <li><strong>🧠 Il meccanismo psicologico</strong> – Pensieri anticipatori e convinzioni errate alimentano l’ansia.</li>
+    </ul>
+
+    <h3 style="color:#007BFF;margin:2rem 0 1rem;">🌅 Capitolo 2 – Routine Anti-Ansia (Mattina e Sera)</h3>
+    <ul style="list-style: none; padding-left: 0; line-height: 1.6;">
+      <li><strong>☀️ Abitudini mattutine</strong> – Per iniziare la giornata centrato e senza tensioni.</li>
+      <li><strong>🌙 Rituali serali</strong> – Per calmare la mente e dormire meglio.</li>
+    </ul>
+
+    <h3 style="color:#007BFF;margin:2rem 0 1rem;">🚨 Capitolo 3 – Tecniche di Emergenza</h3>
+    <ul style="list-style: none; padding-left: 0; line-height: 1.6;">
+      <li><strong>🌬️ Respiro 4-7-8</strong> – Una tecnica potente per ridurre l’ansia in meno di 1 minuto.</li>
+      <li><strong>🎯 Metodo 5-4-3-2-1</strong> – Per tornare subito al presente e uscire dal panico.</li>
+      <li><strong>💪 Rilassamento muscolare progressivo</strong> – Sciogliere le tensioni dal corpo, una zona alla volta.</li>
+    </ul>
+
+    <h3 style="color:#007BFF;margin:2rem 0 1rem;">🧭 Capitolo 4 – Riprogramma la Mente</h3>
+    <ul style="list-style: none; padding-left: 0; line-height: 1.6;">
+      <li><strong>💬 Self-talk positivo</strong> – Cambia il dialogo interno che alimenta l’ansia.</li>
+      <li><strong>📜 Affermazioni guidate</strong> – Da usare ogni giorno per allenare la calma mentale.</li>
+    </ul>
+
+    <h3 style="color:#007BFF;margin:2rem 0 1rem;">🧯 Capitolo 5 – Gestione delle Crisi d’Ansia</h3>
+    <ul style="list-style: none; padding-left: 0; line-height: 1.6;">
+      <li><strong>⏱️ Cosa fare quando arriva l’attacco</strong> – I passi da seguire per interrompere l’ansia sul nascere.</li>
+      <li><strong>🧠 Trucchi di emergenza</strong> – Strategie veloci da usare ovunque ti trovi.</li>
+    </ul>
+
+    <h3 style="color:#007BFF;margin:2rem 0 1rem;">🥗 Capitolo 6 – Alimentazione e Ansia</h3>
+    <ul style="list-style: none; padding-left: 0; line-height: 1.6;">
+      <li><strong>🚫 Cibi da evitare</strong> – Alcuni alimenti aumentano l’ansia senza che tu lo sappia.</li>
+      <li><strong>✅ Cibi che calmano</strong> – Nutrienti che aiutano mente e sistema nervoso.</li>
+    </ul>
+
+    <h3 style="color:#007BFF;margin:2rem 0 1rem;">🌿 Capitolo 7 – Vivi Diverso, Vivi Leggero</h3>
+    <ul style="list-style: none; padding-left: 0; line-height: 1.6;">
+      <li><strong>🧘 Stile di vita minimalista</strong> – Meno cose, meno stress.</li>
+      <li><strong>🌳 Natura e presenza</strong> – Il potere del “qui e ora”.</li>
+      <li><strong>⛔ Stop al multitasking</strong> – Fai una cosa alla volta e vivrai meglio.</li>
+    </ul>
+
+    <h3 style="color:#007BFF;margin:2rem 0 1rem;">🎁 Bonus Inclusi</h3>
+    <ul style="list-style: none; padding-left: 0; line-height: 1.6;">
+      <li><strong>📄 PDF stampabile</strong> – Tecniche di emergenza sempre con te.</li>
+      <li><strong>🗓️ Mini calendario 30 giorni</strong> – Segui il percorso giorno dopo giorno.</li>
+      <li><strong>🎧 Audio guida rilassante</strong> – Da ascoltare quando ne hai più bisogno.</li>
+    </ul>
+
+    <!-- Pulsante finale -->
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="https://www.paypal.com/ncp/payment/4A9J4HKMDAX6L" class="btn" style="background-color:#007BFF; color:white; padding:0.75rem 1.5rem; border-radius:8px; text-decoration:none; font-weight:600;">📥 Scarica il tuo eBook</a>
+    </div>
+
+  </div>
+</section>
+
+
 
   <section>
     <h2>Cosa dicono le persone</h2>
@@ -176,86 +267,9 @@
       lucido.”<br>— Marco F.</p>
   </section>
 
-  <section>
-    <h2>Bonus Inclusi (solo oggi)</h2>
-    <ul>
-      <li>⚠️ Le 5 Trappole dell’Ansia da Evitare</li>
-      <li>Mini guida PDF: “5 trappole dell’ansia da evitare”</li>
-      <li>Planner giornaliero anti-stress stampabile</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2>Garanzia zero rischio</h2>
-    <p>Hai 7 giorni per testarlo. Se non noti nessun cambiamento, ti rimborsiamo <strong>senza fare domande</strong>.
-    </p>
-  </section>
 
-  <section id="acquista">
-    <h2>📘 Scarica Ora il Programma e Inizia Subito</h2>
-    <p>
-      <strong>
-        Prezzo Lancio: <span style="color:#d62828;">SOLO 9,90€</span></strong> /
-      <del>19,90€</del> – SCONTO 50%
-
-    </p>
-    <p>
-      Accesso immediato al file PDF + audio bonus.<br>
-      Ricevi tutto via email in meno di 2 minuti, senza attese.
-    </p>
-    
-    <style>.paypal-btn {
-    text-align: center;
-    border: none;
-    border-radius: 0.5rem;
-    min-width: 11.625rem;
-    padding: 0 2rem;
-    height: 2.625rem;
-    font-weight: bold;
-    background-color: #FFD140;
-    color: #000;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-
-  .paypal-btn:hover {
-    background-color: #ffc107;
-  }
-
-  .paypal-wrapper {
-    display: inline-grid;
-    justify-items: center;
-    align-content: start;
-    gap: 0.5rem;
-    margin-top: 1rem;
-  }
-
-  .paypal-wrapper img {
-    max-height: 24px;
-  }
-
-  .paypal-tech {
-    font-size: 0.75rem;
-    color: #333;
-  }
-
-  .paypal-tech img {
-    height: 0.875rem;
-    vertical-align: middle;
-  }</style>
-<form action="https://www.paypal.com/ncp/payment/4A9J4HKMDAX6L" method="post" target="_blank" class="paypal-wrapper">
-  <input class="paypal-btn" type="submit" value="📥 Acquista Ora con PayPal" />
-  <img src="https://www.paypalobjects.com/images/Debit_Credit.svg" alt="Carte di credito e debito accettate" />
-  <div class="paypal-tech">
-    Con tecnologia 
-    <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="PayPal">
-  </div>
-</form>
-  </section>
-
+ 
 
   <section class="faq">
     <h2>Domande Frequenti</h2>
@@ -328,8 +342,74 @@
     </div>
 
   </section>
+   <section id="acquista" style="text-align: center;">
+    <h2>📘 Scarica Ora il Programma e Inizia Subito</h2>
+    <p>
+      <strong>
+        Prezzo Lancio: <span style="color:#d62828;">SOLO 9,90€</span></strong> /
+      <del>19,90€</del> – SCONTO 50%
 
+    </p>
+    <p>
+      Accesso immediato al file PDF + audio bonus.<br>
+      Ricevi tutto via email in meno di 2 minuti, senza attese.
+    </p>
 
+    <style>
+      .paypal-btn {
+        text-align: center;
+        border: none;
+        border-radius: 0.5rem;
+        min-width: 11.625rem;
+        padding: 0 2rem;
+        height: 2.625rem;
+        font-weight: bold;
+        background-color: #FFD140;
+        color: #000;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+
+      .paypal-btn:hover {
+        background-color: #ffc107;
+      }
+
+      .paypal-wrapper {
+        display: inline-grid;
+        justify-items: center;
+        align-content: start;
+        gap: 0.5rem;
+        margin-top: 1rem;
+      }
+
+      .paypal-wrapper img {
+        max-height: 24px;
+      }
+
+      .paypal-tech {
+        font-size: 0.75rem;
+        color: #333;
+      }
+
+      .paypal-tech img {
+        height: 0.875rem;
+        vertical-align: middle;
+      }
+    </style>
+    <form action="https://www.paypal.com/ncp/payment/4A9J4HKMDAX6L" method="post" target="_blank"
+      class="paypal-wrapper">
+      <input class="paypal-btn" type="submit" value="📥 Acquista Ora con PayPal" />
+      <img src="https://www.paypalobjects.com/images/Debit_Credit.svg" alt="Carte di credito e debito accettate" />
+      <div class="paypal-tech">
+        Con tecnologia
+        <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="PayPal">
+      </div>
+    </form>
+  </section>
+  
   <footer>
     <p>&copy; 2025 Stop Ansia – Un progetto di EbookSmart di Luigi. Tutti i diritti riservati.</p>
   </footer>
@@ -344,10 +424,7 @@
       });
     });
   </script>
+
 </body>
 
 </html>
-
-
-
-
